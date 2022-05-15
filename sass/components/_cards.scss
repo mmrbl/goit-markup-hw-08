@@ -93,7 +93,7 @@
   overflow: auto;
   background-color: var(--card-project-anim-background);
   color: var(--primary-white-color);
-  transform: translateY(100%);
+  transform: translateY(101%);
   transition: transform 250ms var(--cubic);
 
   .indents-between-projects:hover & {

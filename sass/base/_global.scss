@@ -42,6 +42,10 @@ body {
   color: var(--primary-text-color);
 }
 
+body.modal-open{
+  overflow: hidden;
+}
+
 .is-scrolling-disabled {
   overflow: hidden;
 }

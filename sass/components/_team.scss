@@ -4,6 +4,10 @@
   padding: 94px 0px;
   background-color: var(--secondary-background-color) ;
 
+  @media screen and (max-width: 1199px) {
+      padding: 60px 0px;
+    }
+
   &__title {
     @include title;
   }

@@ -1,7 +1,11 @@
 /* Section advantages */
 
 .advantages {
-  padding: 94px 0px 47px 0px;
+  padding: 94px 0px;
+
+  @media screen and (max-width: 1199px) {
+    padding: 60px 0px;
+  }
 
   &__list {
     @media screen and (max-width: 1199px) {
@@ -21,6 +25,11 @@
     line-height: 1.14;
     text-transform: uppercase;
     margin-bottom: 10px;
+
+    @media screen and (max-width: 767px) {
+      text-align: center;
+    }
+
   }
 
   &__discription {
@@ -29,14 +38,10 @@
 }
 
 .advantages__icon:nth-child(-n + 3) {
-  // flex-basis: calc((100% - 90px) / 4);
   @media screen and (max-width: 767px) {
     margin-bottom: 30px;
   }
 }
-// &:nth-child(-n + 3) {
-//   margin-right: 30px;
-// }
 
 .advantages__icon{
   @media screen and (min-width: 768px) {
